@@ -9,5 +9,5 @@ x = float(input("X value: "))
 def binominal(size, p_success, x):
 	return (scipy.special.factorial(size) / (scipy.special.factorial(x) * scipy.special.factorial(size - x))) * (p_success ** x) * ((1 - p_success) ** (size -x))
 
-print("Binominal for the value", x)
+print("Binominal probability for the value", x)
 print(binominal(size, p_success, x))
