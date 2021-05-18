@@ -3,7 +3,7 @@ data(cars)
 # kinetic energy - proportional to squared speed
 cars$sq_speed <- cars$speed ** 2
 
-# Correlation between variables - visually
+# Correlation between variables
 plot(cars)
 
 # correlation between squared speed and stopping distance
