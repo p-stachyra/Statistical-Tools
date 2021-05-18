@@ -21,15 +21,6 @@ def count_median(arr):
 	val2 = arr[position2]
 	return np.mean([val1, val2])
 
-# def count_percentile(arr, perc):
-# 	position = float(perc) * (len(arr) + 1)
-# 	print(f"Place of percentile: {position}")
-# 	position1 = math.floor(position) - 1
-# 	position2 = math.floor(position)
-# 	val1 = arr[position1]
-# 	val2 = arr[position2]
-# 	return val1 + (1 - float(perc)) * (val1 - val2)
-
 def count_variance(arr, how='pop'):
 	diff = 0
 	difference = []
